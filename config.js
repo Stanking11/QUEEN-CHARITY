@@ -14,20 +14,20 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/caseyweb/QUEEN-CHARITY";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/6xuv7u.jpg";
-global.devs = "254112192119";
-global.sudo = process.env.SUDO || "254112192119";
-global.owner = process.env.OWNER_NUMBER || "254112192119";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaxKouY7tkj8NiPg0t45";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaxKouY7tkj8NiPg0t45";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/fqq387.jpg";
+global.devs = "255750638502";
+global.sudo = process.env.SUDO || "255750638502";
+global.owner = process.env.OWNER_NUMBER || "255750638502" 
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "true";
-global.wlcm = process.env.WELCOME || "true";
+global.gdbye = process.env.GOODBYE || "false";
+global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/kwe3i5.jpg,https://files.catbox.moe/cyvqxl.jpg,https://files.catbox.moe/ex03qs.jpg,https://files.catbox.moe/zrxmeu.jpg,https://files.catbox.moe/onkqum.jpg,https://files.catbox.moe/cgz610.jpg,https://files.catbox.moe/ig9w4q.jpg,https://files.catbox.moe/dd93hl.jpg,https://files.catbox.moe/nwvoq3.jpg,https://files.catbox.moe/omgszj.jpg";
+global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/fqq387.jpg,https://files.catbox.moe/gk6my9.
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -42,15 +42,15 @@ global.scan = "https://rhodespair-1303049c463e.herokuapp.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY090Y3YwNDhYWFovcWRxVzhFRjM5M2I0OXBBRDBnVUFkSHcxSGduRGkwZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK3I5QXR3alNyQThtdU13RWpwVkIwNGVORmYyR1FHajFuUlJEbmliWTBoYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJtQ3RiN3czdVVzcGhnMU13Mno5S3ZnVTJoMThrYVNUZkQ5cXp1UHV3a0ZNPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJsUmx3a29RN1I0eWZwazlnRFdLNWpXZ1NiZGJBSTRacjZkUXhJWDRkK2pzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9HelBFUWt6LzVQUVRTOUlLRFVrbzgvbWtka0xoUllPL3dpYWpvWHN6VlE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjVobngvMlRCK3hvbkg3cWNndk9tMHJ1Q0hkTVl4ZHduSjdWaDFDa1FJRzQ9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOEVJVXBzTEc0T1FKZ2VCVXpCSHRObzVLdVFmWWUzTmFncUVPY0hlQ3BIdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibDVHaXZWcW5pWGcyc3pKWHVDZ3BSSStMeWlxVUR3WW5mSnpGRUQvOWtEcz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkttZ0xtSHRBRkc4YUV5QzdYTnBhQXZlN1I2MUEvb3RpdktETzdqQWNvV055aEx3amVubXg2b25TSTgvTGdnOVdLUzJHYmpZS2xFL09xaXl3YXpaVUJBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTEsImFkdlNlY3JldEtleSI6ImFpd1kxYnpqWVdYQ3dUSmlRSHg5QXA2UHBBbTJoSHh5VDFreEpwU0wweGM9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjo2MSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjYxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlRmTFpJVkYyVE5lQlFXaTBUUWJ0dkEiLCJwaG9uZUlkIjoiMDg2NTA4ZTItMmZmYi00YzExLTgxMmYtNGZjMzAxMmU3ZTgwIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJpc2tXUVNhZ2xrbXVyT3J5WHRDd0hGUTQ5VT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI1RWJMSEZzU0d6eVRFZW1ReXdheFpEa3lSTnc9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiWEFGRkE5UzYiLCJtZSI6eyJpZCI6IjI1NDExMjE5MjExOTo3NEBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDT2U4MW1ZUTZPL2h1UVlZQkNBQUtBQT0iLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoibDk0V1U3S1R4M2hzQVZVMjlMdGlLdVJhbGRObFVEMzJGa0hRU3VOcVMxcz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiREt1QUFCY1lrK1NhVEI5cUtwZ2hQVDRSblE5dlZNRHk3RWYvRDNNWW5WUkZHVGZaRmdoa3dlYVV0NWRQWjB1aTNJa3V6S3FDYWNENEFGZndEZkJ2Q0E9PSIsImRldmljZVNpZ25hdHVyZSI6Imc4M3N3S3V3NUt4Nmlpd05vdkwraHpCMmNqNnZxVVppVTdRN2ZRS1ZZdzdsNjc3ODV2RjlTQ1ZYTEd2L1BtM0dWRjFibkdPR0p5THI4b0VqQVh5RkFBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0MTEyMTkyMTE5Ojc0QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlpmZUZsT3lrOGQ0YkFGVk52UzdZaXJrV3BYVFpWQTk5aFpCMEVyamFrdGIifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MzE3NTM5NzQsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBT29hIn0=" // session id here
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib1BabDNEMm5YbW1HdTY2dWdyVEVmOW1QaXJrRk1rRzdZdGJibDFtc1JrUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVnMzbWVhT05TQ1FHUjRiOWxNdUxYZDN4d3lYb3czcld2YUx0Vm1kd2t3ST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJFSEptV1dFdG1UeDhYK0N0RzBqdWw3TGJXbUd3T243ZklUWmdDOHluRG1VPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1ZXBYd2NsODZaWWlaTUJBZ2o3QzFaL1dxRnpJbENyZWdMTmR3RXVXS21rPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlMaXdoelpYODNvaGZXVWFueTJpK1FJZ05aSUNhQWxVa1M0RFdMZmlnbjA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImJZbHVZeURQbVEyVEQvQlhTaTZQRUovNUlwM3UzcUtUdDN6RkdlTlZjQmM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYU8zLzFXNkZmUTlIdVh3T0hYODM1c2hZeUFsSjBCMzdQcXh4M3ZlR0hXND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVk9wSGpHRjY5UnNZV0RKOS9SZjhISWdQcFBkSUFLSXQ1bkJ3SXQ0bFR4UT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik5SeExqWTQxOU5yVDY4NlZuekpxaTFzaUhNS2djUGY0V3JRYVBQTFc0bDE4dUd5bDNCRmFlTjN5NHp3WGxWcUVmMFBTbXdac2krdE1RNUwydHNHaWpBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6ODMsImFkdlNlY3JldEtleSI6IkNnZm5hMXlEYkFjZ24rL1hzcU9yWmVaVFljdWdTR09PTWt0cGtqUDBidHM9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IkZ2VkZqN01EUkU2QU5LdVU2bzJGdWciLCJwaG9uZUlkIjoiZTUyOTYzMzctNTgzZC00OWJkLTlkODYtMTUzYmE2ZmQyY2RjIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZyU25yN0NTa3E5dG5GVjk5SkdnOE1MY2N3ST0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNSXZWU1ZpMFJWeUFKSFE3Z1gvQWtHU2RIdVE9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiRTNXUkYxWFQiLCJtZSI6eyJpZCI6IjI1NTc1MDYzODUwMjoyMkBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJPRkZJQ0lBTCBTVEFOX0xFRSBDT0RFIDc2In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNMcURwTDBGRVBhQ3A3d0dHQU1nQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJ6dXRJREVMR3F5OTNwQmd6RmlFUzA3OVpVWlMxR1BISllyS2ZzbExrQkdZPSIsImFjY291bnRTaWduYXR1cmUiOiI2dmZ1S3hYNExPUUROZU05bEh6SmJyRDZFTGRmWUdGemRmNENzUXpuMmVTK3NQN1NsY210WjZORTJQVW1DcTk3TzU0QktjQTlqL1BSTlBNR3ZHQ0JCdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiUHpWR2lnMXF4WnA2SVVqMGhwNkVxOG15dXp6aUVtYUxNVEQvcUhydXpsb3NLdGRtUDE0NHJ5empUN01lZ2F4dlBpbm9ZSkdEc2dNc0NrK010aTBmakE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTU3NTA2Mzg1MDI6MjJAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCYzdyU0F4Q3hxc3ZkNlFZTXhZaEV0Ty9XVkdVdFJqeHlXS3luN0pTNUFSbSJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTczNzA4MTIxOSwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFPK24ifQ==" // session id here
 module.exports = {
   menu: process.env.MENU || "2",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "!",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`QUEEN_CHARITY™`",
   author: process.env.PACK_AUTHER || "𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿᴰℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 𒀱",
-  packname: process.env.PACK_NAME || "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇",
+  packname: process.env.PACK_NAME || "STANY 𝐓𝐄𝐂𝐇",
   botname: process.env.BOT_NAME || "`𝗤𝗨𝗘𝗘𝗡_𝗖𝗛𝗔𝗥𝗜𝗧𝗬`",
   ownername: process.env.OWNER_NAME || "𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿᴰℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 𒀱",
   errorChat: process.env.ERROR_CHAT || "",
